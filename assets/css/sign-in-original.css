@@ -1,0 +1,15 @@
+
+*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;background-color:#08090b;
+    background-image:repeating-linear-gradient(135deg,#ffffff05 0 1px,transparent 1px 5px),
+        repeating-linear-gradient(45deg,#00000055 0 3px,transparent 3px 6px),
+        linear-gradient(135deg,#08090b,#101113 50%,#08090b);color:#edf3fa;font:16px Arial,Helvetica,sans-serif;padding:20px}.panel{width:min(100%,420px);background:#151b21;border:1px solid #354556;border-radius:16px;padding:30px;box-shadow:0 18px 60px #0008}.brand{font-size:29px;font-weight:700;letter-spacing:1px}.brand span{color:#D4AF37}.brand b{color:#F5F7FA}.eyebrow{margin-top:25px;color:#E6BE63;font-size:11px;letter-spacing:2px;font-weight:bold}h1{margin:8px 0 5px;font-size:30px}.muted{color:#9ca7b2;line-height:1.5}.error{background:#3b2024;border:1px solid #81434b;color:#ffdce0;padding:11px;border-radius:8px;margin:16px 0}label{display:block;margin:17px 0 7px;color:#cbd5df;font-size:13px}input{display:block;width:100%;padding:13px;border:1px solid #465362;border-radius:8px;background:#0b1117;color:#fff;font-size:16px}button{width:100%;margin-top:22px;padding:13px;border:0;border-radius:8px;background:#D4AF37;color:#151515;font-weight:bold;letter-spacing:1px;cursor:pointer}button:hover{background:#E6C55F}:is(button,input):focus-visible{outline:2px solid #E6BE63;outline-offset:3px}.note{font-size:12px;color:#8e9aa7;line-height:1.5;margin-top:20px}footer{font-size:10px;letter-spacing:1.4px;color:#73808e;margin-top:28px}
+/* DJ AIR DISPLAY SCALE START */
+:root { --djair-display-scale: 1; }
+body {
+  zoom: calc(
+    var(--djair-display-scale) *
+    var(--a11y-zoom, 1)
+  );
+}
+/* DJ AIR DISPLAY SCALE END */
+

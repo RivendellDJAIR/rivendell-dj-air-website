@@ -1,0 +1,18 @@
+
+ header.djairUnified{box-sizing:border-box;display:grid!important;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)!important;align-items:center;gap:16px;padding:18px 24px;width:100%;max-width:none;position:relative;background:linear-gradient(145deg,rgba(30,31,33,.7),rgba(13,14,16,.7));border-bottom:1px solid #39444f}
+ .djairUnified .djairIdentity{grid-column:1;grid-row:1;min-width:0;justify-self:start;text-align:left}
+ .djairUnified .djairSignedIn{font:12px Arial,sans-serif;color:#9ca7b2;margin-top:4px;overflow-wrap:anywhere}
+ .djairUnified .heroClock{grid-column:2!important;grid-row:1!important;justify-self:center!important;text-align:center!important;margin:0!important;position:static!important;transform:none!important}
+ .djairUnified .studioClock{font-family:monospace!important;font-size:calc(42px * var(--a11y-text-scale,1))!important;font-weight:700!important;line-height:1!important;letter-spacing:2px!important;color:#A8843F!important;display:inline-block;white-space:nowrap;inline-size:calc(11ch + 22px);font-variant-numeric:tabular-nums;text-align:center}
+ .djairUnified .studioClockLabel{font:calc(10px * var(--a11y-text-scale,1)) Arial,sans-serif!important;letter-spacing:2px!important;color:#A8843F!important;margin-bottom:4px;text-align:center}
+ .djairUnified .djairHeaderControls{grid-column:3;grid-row:1;justify-self:end;display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:8px;min-width:0}
+ .djairUnified .djairHeaderControls .djairHeaderButton{box-sizing:border-box;display:inline-flex!important;align-items:center;justify-content:center;gap:6px;min-height:calc(36px * var(--a11y-text-scale,1))!important;height:calc(36px * var(--a11y-text-scale,1))!important;margin:0!important;padding:8px 12px!important;background:#182028!important;border:1px solid #A8843F!important;border-radius:6px!important;color:#D4B66A!important;font:700 calc(12px * var(--a11y-text-scale,1)) Arial,sans-serif!important;line-height:18px!important;text-decoration:none!important;white-space:nowrap!important;min-width:0!important;max-width:none!important;width:auto!important;cursor:pointer}
+ .djairUnified .djairHeaderControls > a:first-child,.djairUnified .djairHeaderControls > #a11yOpen{width:calc(164px * var(--a11y-text-scale,1))!important}
+ .djairUnified .djairHeaderControls svg{width:16px;height:16px;fill:none;stroke:currentColor;color:#D4B66A}
+ .djairUnified .djairHeaderControls form{margin:0!important;padding:0!important;display:contents!important}
+ .djairUnified.djairHeaderStacked{grid-template-columns:minmax(0,1fr)!important}
+ .djairUnified.djairHeaderStacked .djairIdentity{grid-column:1;grid-row:1}
+ .djairUnified.djairHeaderStacked .heroClock{grid-column:1!important;grid-row:2!important}
+ .djairUnified.djairHeaderStacked .djairHeaderControls{grid-column:1;grid-row:3;justify-self:end}
+ @media(max-width:600px){header.djairUnified{padding:14px 12px}.djairUnified .djairHeaderControls{justify-self:center!important;justify-content:center}}
+ 
