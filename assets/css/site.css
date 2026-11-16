@@ -10,3 +10,6 @@ a{color:#D8B56C}a:focus-visible{outline:3px solid var(--gold);outline-offset:4px
 
 /* Keep hero text and Live On Air preview side-by-side on desktop and tablets. */
 @media(min-width:601px){.hero-with-image{grid-template-columns:minmax(0,0.9fr) minmax(0,1.1fr);align-items:center}.hero-with-image .hero-image-link{align-self:center}}
+
+/* Prominent voluntary-support section */
+.support-feature{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:24px;padding:28px 32px;margin:12px 0 32px;border:2px solid var(--gold);border-radius:12px;background:var(--surface)}.support-feature h2{font-size:clamp(23px,3vw,32px);margin:12px 0}.support-feature p{max-width:790px;color:var(--muted);line-height:1.65}.support-feature strong{color:var(--text)}.support-feature-symbol{font-size:86px;line-height:1;color:var(--gold);padding:0 18px}.support-feature .button{margin-top:8px}.support-methods{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.support-methods .card{min-height:160px}.support-methods .method-heading{display:flex;align-items:center;gap:12px}.support-methods .method-icon{font-size:28px;color:var(--gold)}@media(max-width:700px){.support-feature{grid-template-columns:1fr;padding:22px}.support-feature-symbol{display:none}.support-methods{grid-template-columns:1fr}}
